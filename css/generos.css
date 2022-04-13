@@ -1,0 +1,24 @@
+body{
+    box-sizing: border-box;
+    padding: 20px;
+    /*margin: 20px;*/
+}
+
+header{
+    border: solid black 1px;
+}
+
+h2{
+    border: red 3px dotted;
+}
+
+section{
+    border: solid 5px blue;
+    padding: 10px;
+    margin: 20px 10px 40px 10px;
+}
+
+article{
+    margin: 30px;
+    padding: 10px;
+}
