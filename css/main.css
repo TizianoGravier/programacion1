@@ -1,0 +1,67 @@
+body{
+    background-color: black;*/
+}
+
+h2{
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+img{
+    height: 210px;
+    width: 210px;
+    align-items: ;
+    margin: 10px 0 0 0;
+}
+
+.partedemi{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    background-color:blueviolet;
+    color: whitesmoke;
+}
+
+.parachutes{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    background-color:blueviolet;
+    color: whitesmoke;
+}
+
+.musicofthe{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    background-color:blueviolet;
+    color: whitesmoke;
+}
+
+.arushof{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    background-color:blueviolet;
+    color: whitesmoke;
+}
+
+.yohago{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    background-color:blueviolet;
+    color: whitesmoke;
+}
