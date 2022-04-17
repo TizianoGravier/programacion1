@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+header{
+    color: whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+.arriba{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombreyartista{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px 0 20px;
+    align-items: center;
+}
+
+.nombre{
+    margin: 0 30px 0 0;
+}
+
+.favoritos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 20px 0 20px;
+    
+}
+
+.agregarcancion{
+    margin: 0 30px 0 0;
+    padding: 10px;
+    background-color:blueviolet
+}
+
+.vermilista{
+    margin: 0 30px 0 0;
+    padding: 10px;
+    background-color:blueviolet
+}
+
+h3{
+    color: whitesmoke;
+}
+
+p{
+    color: darkgray;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section{
+    display: flex;
+    
+}
+
+.fotoytexto{
+    margin: 10px 20px 0 20px;
+}
+
+img{
+    height: 300px;
+}
+
+h4{
+    color: whitesmoke;
+}
+
