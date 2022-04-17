@@ -56,11 +56,6 @@ p{
     color: darkgray;
 }
 
-nav{
-    display: flex;
-    justify-content: space-evenly;
-}
-
 section{
     display: flex;
     
