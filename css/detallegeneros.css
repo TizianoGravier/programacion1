@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu{
+    color: blueviolet;
+    text-decoration: transparent;
+    margin: 15px;
+    
+}
+
+.titulo{
+    color: white;
+}
+
+.artistas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.linkadetalle{
+    color: white;
+    text-decoration: transparent;
+}
+
+.nicki{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.badbunny{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.trueno{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.duki{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.footer{
+    color: blueviolet;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    
+}

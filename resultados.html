@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultados</title>
+    <title>Resultados de busqueda</title>
+    <link rel="stylesheet" href="./css/resultados.css">
 </head>
 <body>
-    
+    <header class="header">
+        <nav>
+            <a class="menu" href="./index.html">Inicio</a>
+            <a class="menu" href="./detallecanciones.html">Canciones</a>
+            <a class="menu" href="./detallealbums.html">Álbumes</a>
+            <a class="menu" href="./detalleartistas.html">Artistas</a>
+            <a class="menu" href="./generos.html">Generos</a>
+            <a class="menu" href="./favoritos.html">Mis favoritos</a>
+        </nav>
+
+        <div>
+            <form class="buscador" action="resultados.html" method="GET">
+                <input type="text" name="" id="" placeholder="buscar...">
+            </form>
+        </div>
+
+    </header>
+
+    <h2 class="titulo">Resultados de tu busqueda</h2>
+
+    <ul class="lista">
+        <li>
+            <a class="linkadetalle" href="./detallecanciones.html">She don't give a fo, Duki</a>
+        </li>
+        <li>
+            <a class="linkadetalle" href="./detalleartistas.html">Coldplay</a>
+        </li>
+        <li>
+            <a class="linkadetalle" href="./detallealbums.html">Parte de mi, Nicki Nicole</a>
+        </li>
+    </ul>
+
+    <footer>
+        <p class="footer">Tiziano Gravier</p>
+    </footer>
 </body>
 </html>

@@ -24,6 +24,12 @@ body{
     color: darkgray;
 }
 
+.linkadetalle{
+    color: darkgray;
+    text-decoration: transparent;
+    font-size: 18px;
+}
+
 .footer{
     color: blueviolet;
     width: 100%;
