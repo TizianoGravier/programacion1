@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    min-width: 250px;
+    
 }
 
 .menu{
@@ -190,4 +190,16 @@ img{
     
 }
 
-@media (min-width: 320px){}
+@media (max-width: 420px){
+.header{
+    justify-content: center;
+}
+
+.menu{
+    margin: 0px;
+}
+
+.buscador{
+    justify-content: center;
+}
+}

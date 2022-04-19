@@ -39,3 +39,18 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+@media (max-width: 420px){
+    .header{
+        justify-content: center;
+    }
+    
+    .menu{
+        margin: 0px;
+    }
+    
+    .buscador{
+        justify-content: center;
+    }
+
+    }
