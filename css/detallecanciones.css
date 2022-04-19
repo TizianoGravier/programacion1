@@ -9,7 +9,7 @@ body{
 }
 
 .menu{
-    color: white;
+    color: blueviolet;
     text-decoration: transparent;
     margin: 15px; 
 }
@@ -34,25 +34,51 @@ h2{
     margin: 0 30px 0 0;
 }
 
+.artista{
+    color: darkgrey;
+    text-decoration: transparent;
+}
+
+.boton{
+    background-color: white;
+    margin-left: 20px;
+}
+
+.escuchar{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    /*margin-left: 20px;*/
+    text-decoration: transparent;
+    color: black;
+    font-size: 18px;
+}
+
 .favoritos{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 0 20px 0 20px;
+    margin-left: 20px;
+    /*margin: 0 20px 0 20px;*/
     color: blueviolet;
-    
 }
 
 .agregarcancion{
-    margin: 0 30px 0 0;
+    /*margin: 0 30px 0 0;*/
     padding: 10px;
     color: blueviolet;
+    text-decoration: transparent;
+
 }
 
 .vermilista{
-    margin: 0 30px 0 0;
+    color: blueviolet;
+    /*margin: 0 30px 0 0;*/
     padding: 10px;
+    text-decoration: transparent;
+
 }
 
 h3{
@@ -78,7 +104,13 @@ img{
     height: 300px;
 }
 
-h4{
+.footer{
     color: blueviolet;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
 }
 

@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin: 10px;
 }
 
 .header{
@@ -9,9 +10,9 @@ body{
 }
 
 .menu{
-    color: white;
+    color: blueviolet;
     text-decoration: transparent;
-    margin: 15px; 
+    margin: 15px;
     
 }
 
@@ -185,4 +186,5 @@ img{
     height: 30px;
     text-align: center;
     font-size: 18px;
+    
 }

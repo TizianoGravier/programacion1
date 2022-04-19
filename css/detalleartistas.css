@@ -1,3 +1,8 @@
+body{
+    background-color: black;
+    margin: 10px;
+}
+
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -5,15 +10,49 @@
 }
 
 .menu{
-    color: white;
+    color: blueviolet;
     text-decoration: transparent;
     margin: 15px; 
 }
 
-section{
+.titulo{
+    color: white;
+}
+
+.fotoycanciones{
     display: flex;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
 }
 
 img{
     height: 410px;
+}
+
+.populares{
+    margin-left: 20px;
+}
+
+.lista{
+    color: darkgray;
+}
+
+.texto{
+    color: darkgray;
+}
+
+.footer{
+    color: blueviolet;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
 }
