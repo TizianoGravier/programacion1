@@ -32,6 +32,10 @@ body{
     text-decoration: transparent;
 }
 
+img{
+    margin-top: 10px;
+}
+
 .nicki{
     display: flex;
     flex-direction: column;
