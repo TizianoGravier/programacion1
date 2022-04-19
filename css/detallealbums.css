@@ -83,9 +83,9 @@ li{
         justify-content: center;
     }
 
-    img{
+    .img{
         width: 100vw;
-        height: 30vh;
+        height: 25vh;
     }
 
     .fotoeinfo{
