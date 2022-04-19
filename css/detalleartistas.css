@@ -1,3 +1,15 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu{
+    color: white;
+    text-decoration: transparent;
+    margin: 15px; 
+}
+
 section{
     display: flex;
 }
