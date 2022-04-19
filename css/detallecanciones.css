@@ -97,12 +97,20 @@ section{
 }
 
 .fotoytexto{
+    display: flex;
+}
+
+.foto{
     margin: 10px 20px 0 20px;
     
 }
 
+.texto{
+    margin: 10px 20px 0 20px;
+}
+
 img{
-    height: 300px;
+    width: 300px
 }
 
 .footer{

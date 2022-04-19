@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    min-width: 250px;
 }
 
 .menu{
@@ -30,7 +31,7 @@ section{
     flex-wrap: wrap;
     flex-direction: row;
     text-align: center;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 img{
@@ -188,3 +189,5 @@ img{
     font-size: 18px;
     
 }
+
+@media (min-width: 320px){}
