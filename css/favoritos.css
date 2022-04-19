@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu{
+    color: blueviolet;
+    text-decoration: transparent;
+    margin: 15px;
+    
+}
+
+.titulo{
+    color: white;
+}
+
+.lista{
+    color: darkgray;
+}
+
+
+
+
+
+.footer{
+    color: blueviolet;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+}
