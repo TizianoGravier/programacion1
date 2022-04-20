@@ -63,21 +63,13 @@ h2{
     justify-content: flex-start;
     margin-left: 20px;
     /*margin: 0 20px 0 20px;*/
-    color: blueviolet;
+    /*color: white;*/
 }
 
-.agregarcancion{
+.agregaryver{
     /*margin: 0 30px 0 0;*/
     padding: 10px;
-    color: blueviolet;
-    text-decoration: transparent;
-
-}
-
-.vermilista{
-    color: blueviolet;
-    /*margin: 0 30px 0 0;*/
-    padding: 10px;
+    color: white;
     text-decoration: transparent;
 
 }
