@@ -36,7 +36,7 @@ img{
     margin-top: 10px;
 }
 
-.nicki{
+.cajas-generos{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -46,35 +46,6 @@ img{
     padding: 20px;
 }
 
-.badbunny{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: blueviolet;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-}
-
-.trueno{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: blueviolet;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-}
-
-.duki{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: blueviolet;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-}
 
 .footer{
     color: blueviolet;
