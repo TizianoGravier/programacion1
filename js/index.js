@@ -50,7 +50,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/chart/0/albums'
         
         albumes += `<article class="cajas-inicio">
 
-            <a class="linkadetalle" href="./detallealbums.html?id${info[index].id}">${info[index].title}</a>
+            <a class="linkadetalle" href="./detallealbums.html?id=${info[index].id}">${info[index].title}</a>
         
             <img src=${info[index].cover} alt="cover de Parachutes">
         </article>`
@@ -79,7 +79,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/chart/0/artists
         
         artistas += `<article class="cajas-inicio">
 
-            <a class="linkadetalle" href="./detalleartistas.html?id${info[index].id}">${info[index].name}</a>
+            <a class="linkadetalle" href="./detalleartistas.html?id=${info[index].id}">${info[index].name}</a>
 
             <img src=${info[index].picture} alt="foto de naik">
         </article>`
