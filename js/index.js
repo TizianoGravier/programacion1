@@ -17,7 +17,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/chart/0/tracks'
 
            canciones += `<article class="cajas-inicio">
 
-           <a class="linkadetalle" href="./detallecanciones.html?id=${info[index].id}">${info[index].title}</a>
+           <a class="linkadetalle" href="./detallecanciones.html?id=${info[index].id}">${info[index].title}, ${info[index].artist.name}</a>
            
            <img src=${info[index].artist.picture} alt="cover de she dont give a Fo">
 
@@ -85,7 +85,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/chart/0/artists
         </article>`
     }
 
-    console.log(artistas)
+    //console.log(artistas)
     sectionArtistas.innerHTML += artistas
     
 

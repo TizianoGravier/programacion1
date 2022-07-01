@@ -33,12 +33,12 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/album/'+idAlbum
     //let info = data.tracks
     for (let index = 0; index < data.tracks.data.length; index++) {
         
-        temasDisco.innerHTML = `<ol>
+        temasDisco.innerHTML += `<ol>
         <li>${data.tracks.data[index].title}</li>
         </ol>`
-                
+        console.log(data.tracks.data[index].title)
     }
-console.log(data.tracks.data[5].title)
+
 })
 .catch(function(error){
     console.log('el error es '+ error)
