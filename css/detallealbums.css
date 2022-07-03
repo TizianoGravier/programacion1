@@ -33,6 +33,11 @@ body{
     text-decoration: transparent;
 }
 
+.abajo{
+    display: flex;
+    
+}
+
 h2{
     color: white;
 }
@@ -47,6 +52,7 @@ h3{
 
 .foto{
     display: flex;
+    margin-right: 30px;
 }
 
 .info{
