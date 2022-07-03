@@ -19,12 +19,12 @@ body{
 .nombreyartista{
     display: flex;
     flex-direction: row;
-    margin: 0 20px 0 20px;
+    margin: 0px 20px 0px 20px;
     align-items: center;
     
 }
 
-.nombre{
+.barraArriba{
     margin-right: 30px;
 }
 
@@ -45,7 +45,7 @@ h3{
     height: 300px;
 }
 
-.fotoeinfo{
+.foto{
     display: flex;
 }
 

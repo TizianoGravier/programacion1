@@ -11,7 +11,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/track/'+idCanci
 .then(function(data){
     console.log(data)
 
-    let sectionArriba = document.querySelector('.arriba')
+    let sectionArriba = document.querySelector('.nombreyartista')
     sectionArriba.innerHTML = `
     <section class="nombreyartista">
         <article class="nombre">
