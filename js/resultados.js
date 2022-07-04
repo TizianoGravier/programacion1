@@ -17,3 +17,17 @@ buscador.addEventListener('submit',function(buscar){
         this.submit()
     }
 })
+
+let queryString = location.search;
+let qsToObject = new URLSearchParams (queryString);
+let idBuscador = qsToObject.get ('buscar'); 
+
+console.log(queryString,'---', qsToObject,'---', idBuscador)
+
+fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/search/track?q='+idBuscador)
+.then(function(response){
+    return response.json()
+})
+.then(function(data){
+    console.log(data)
+})
