@@ -38,15 +38,13 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/search/track?q=
     for (let index = 0; index < data.data.length; index++) {
         
         resultadoBusqueda.innerHTML += 
-        `<article class="nombre">
-            <a href="./detallecanciones.html?id=${data.data[index].id}">${data.data[index].title}</a> 
+        `<article class="cajas-inicio">
+            <a class="linkadetalle" href="./detallecanciones.html?id=${data.data[index].id}">${data.data[index].title}</a> 
             <br> 
-            <a href="./detalleartistas.html?id=${data.data[index].artist.id}">${data.data[index].artist.name} </a> 
+            <a class="linkadetalle" href="./detalleartistas.html?id=${data.data[index].artist.id}">${data.data[index].artist.name} </a> 
             <br> 
-            <a href="./detallealbums.html?id=${data.data[index].album.id}">${data.data[index].album.title}</a> 
-        </article>
-         
-        <article>
+            <a class="linkadetalle" href="./detallealbums.html?id=${data.data[index].album.id}">${data.data[index].album.title}</a> 
+        
             <img src="${data.data[index].album.cover_medium}" alt="">
             <br>
         </article>`

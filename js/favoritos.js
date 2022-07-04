@@ -35,7 +35,7 @@ for (let index = 0; index < recuperoStorageArray.length; index++) {
         console.log(data)
 
         sectionFavoritos.innerHTML += `
-        <li> <a href="./detallecanciones.html?id=${data.id}">${data.title} </a>, <a href="./detalleartistas.html?id=${data.artist.id}">${data.artist.name} </a></li>`
+        <li> <a href="./detallecanciones.html?id=${data.id}">${data.title}</a>, <a href="./detalleartistas.html?id=${data.artist.id}">${data.artist.name} </a></li>`
     })
     
 }

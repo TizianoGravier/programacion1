@@ -37,7 +37,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/artist/'+idArti
 
     let fotoArtista = document.querySelector('.foto')
     fotoArtista.innerHTML = `<article class="foto">
-    <img src=${data.picture} alt="foton de Coldplay">
+    <img src=${data.picture_medium} alt="foton de Coldplay">
     </article>`
 
     

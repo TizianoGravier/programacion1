@@ -39,7 +39,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/album/'+idAlbum
     </article>
 
     <article class="barraArriba">
-        <a class="artista" href="./detalleartistas.html">${data.artist.name}</a>
+        <a class="artista" href="./detalleartistas.html?id=${data.artist.id}">${data.artist.name}</a>
     </article>
     
     <article class="barraArriba">

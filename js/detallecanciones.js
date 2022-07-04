@@ -40,7 +40,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/track/'+idCanci
         </article> 
 
         <article>
-            <a class="artista" href="./detalleartistas.html?id=">${data.artist.name}</a>
+            <a class="artista" href="./detalleartistas.html?id=${data.artist.id}">${data.artist.name}</a>
         </article>
 
         
@@ -49,7 +49,7 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/track/'+idCanci
     let sectionAbajo = document.querySelector('.abajo')
     sectionAbajo.innerHTML = `
     <article class="foto">
-        <img src=${data.album.cover} alt="duketo">
+        <img src=${data.album.cover_medium} alt="duketo">
     </article>
 
     <article class="nombreDisco">

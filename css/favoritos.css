@@ -20,6 +20,16 @@ body{
     color: white;
 }
 
+.favoritos{
+    color: white;
+    text-decoration: transparent;
+}
+
+a{
+    color: white;
+    text-decoration: transparent;
+}
+
 .lista{
     color: darkgray;
 }
