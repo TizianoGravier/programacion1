@@ -21,13 +21,29 @@ body{
 }
 
 .lista{
-    color: darkgray;
-    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .link{
-    color: darkgray;
+    color: white;
     text-decoration: transparent;
+}
+
+img{
+    margin-top: 10px;
+}
+
+.cajas-generos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    padding: 20px;
 }
 
 .footer{
