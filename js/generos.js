@@ -31,11 +31,13 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/genre')
     for (let index = 0; index < info.length; index++) {
         
         listaGeneros.innerHTML += `
-        <li>
-        <a class="link" href="./detallegeneros.html?id=">${info[index].name}</a>
-        </li>
+        <article>
+        <a class="link" href="./detallegeneros.html?id=${info[index].id}">${info[index].name}</a>
+        </article>
         
-        <img src=${info[index].picture} alt="fotosGeneros">`
+        <article>
+        <img src=${info[index].picture} alt="fotosGeneros">
+        </article>`
     }
     
     listaGeneros.style.display = "flex"

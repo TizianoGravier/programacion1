@@ -30,4 +30,29 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/search/track?q=
 })
 .then(function(data){
     console.log(data)
+
+    let tituloBusqueda = document.querySelector('.titulo')
+    tituloBusqueda.innerHTML = ('Resultados de ' + idBuscador)
+
+    let resultadoBusqueda = document.querySelector('.resultados')
+    for (let index = 0; index < data.data.length; index++) {
+        
+        resultadoBusqueda.innerHTML += 
+        `<article class="nombre">
+            <a href="./detallecanciones.html?id=${data.data[index].id}">${data.data[index].title}</a> 
+            <br> 
+            <a href="./detalleartistas.html?id=${data.data[index].artist.id}">${data.data[index].artist.name} </a> 
+            <br> 
+            <a href="./detallealbums.html?id=${data.data[index].album.id}">${data.data[index].album.title}</a> 
+        </article>
+         
+        <article>
+            <img src="${data.data[index].album.cover_medium}" alt="">
+            <br>
+        </article>`
+        
+        
+    }
+    
+    
 })

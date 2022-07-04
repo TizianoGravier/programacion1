@@ -20,8 +20,9 @@ body{
     color: white;
 }
 
-.lista{
+.nombre{
     color: darkgray;
+    text-decoration: transparent;
 }
 
 .linkadetalle{
@@ -36,7 +37,7 @@ body{
     height: 30px;
     text-align: center;
     font-size: 18px;
-    position: absolute;
+    position: relative;
     bottom: 0px;
 }
 

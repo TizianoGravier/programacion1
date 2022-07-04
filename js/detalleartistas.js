@@ -40,8 +40,5 @@ fetch('https://api.allorigins.win/raw?url=https://api.deezer.com/artist/'+idArti
     <img src=${data.picture} alt="foton de Coldplay">
     </article>`
 
-    let tracklist = document.querySelector('.lista')
-    tracklist.innerHTML = `<ol class="lista">
-    <li>${data.tracklist}</li>
-    </ol>`
+    
 })

@@ -24,17 +24,22 @@
 
     <h2 class="titulo">Resultados de tu busqueda</h2>
 
-    <ul class="lista">
-        <li>
-            <a class="linkadetalle" href="./detallecanciones.html">She don't give a fo, Duki</a>
-        </li>
-        <li>
-            <a class="linkadetalle" href="./detalleartistas.html">Coldplay</a>
-        </li>
-        <li>
-            <a class="linkadetalle" href="./detallealbums.html">Parte de mi, Nicki Nicole</a>
-        </li>
-    </ul>
+    <section class="resultados">
+            
+        <article class="nombre">
+            <a href="./detallecanciones.html"> </a> 
+            <br> 
+            <a href="./detalleartistas.html"> </a> 
+            <br> 
+            <a href="./detallealbums.html"> </a> 
+        </article>
+         
+        <article>
+            <img src="${data.data[index].album.cover_medium}" alt="">
+            <br>
+        </article>
+
+    </section>
 
     <footer>
         <p class="footer">Tiziano Gravier</p>
