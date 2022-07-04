@@ -52,7 +52,7 @@ fetch("https://api.allorigins.win/raw?url=https://api.deezer.com/genre/"+idGener
         
         artistas.innerHTML += 
         `<article class="cajas-generos">
-        <a class="linkadetalle" href="./detalleartistas.html">${data.data[index].name}</a>
+        <a class="linkadetalle" href="./detalleartistas.html?id=${data.data[index].id}">${data.data[index].name}</a>
         <img src=${data.data[index].picture_medium} alt="foto de naik">
         </article>`
         
